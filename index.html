@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://valdidev.com/static/tomato-favicon.svg"
+      type="image/svg+xml"
+    />
     <title>Rendimiento del Servidor</title>
     <style>
       * {
@@ -117,11 +122,19 @@
       </div>
       <div class="panel" onclick="openModal('carga_conexiones.jpg')">
         <h1 class="title">Conexiones</h1>
-        <img src="carga_conexiones.jpg" alt="Gráfica de Conexiones" class="image" />
+        <img
+          src="carga_conexiones.jpg"
+          alt="Gráfica de Conexiones"
+          class="image"
+        />
       </div>
       <div class="panel" onclick="openModal('carga_temperatura.jpg')">
         <h1 class="title">Temperatura</h1>
-        <img src="carga_temperatura.jpg" alt="Gráfica de Temperatura" class="image" />
+        <img
+          src="carga_temperatura.jpg"
+          alt="Gráfica de Temperatura"
+          class="image"
+        />
       </div>
     </div>
 
@@ -133,12 +146,12 @@
 
     <script>
       function openModal(imageSrc) {
-        document.getElementById('modalImage').src = imageSrc;
-        document.getElementById('imageModal').classList.add('open');
+        document.getElementById("modalImage").src = imageSrc;
+        document.getElementById("imageModal").classList.add("open");
       }
 
       function closeModal() {
-        document.getElementById('imageModal').classList.remove('open');
+        document.getElementById("imageModal").classList.remove("open");
       }
     </script>
   </body>
